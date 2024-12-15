@@ -1,0 +1,765 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color:rgb(239,255,240); */
+    
+}
+
+/* .navbar {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.navbar ul li{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    background: blue;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    padding: 20px 20px;
+    width: 100%;
+    
+}
+
+.navbar ul li ul.dropdown li{
+    display: block;
+    background: rgb(176, 176, 190);
+   
+}
+
+.navbar ul li ul.dropdown{
+    display: none;
+    width: 100px;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    text-align: center;
+}
+
+
+.navbar ul li:hover ul.dropdown{
+    display: block;
+} */
+
+
+
+.navbar {
+    display: flex;
+    padding: 15px;  
+    background-color:rgb(239,255,240);
+}
+.nav2{
+    display: flex;
+}
+.nav3{
+    display: flex;
+    margin-left: 50px;
+}
+.navbar .nav3 a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 15px;
+    
+}
+
+ul {
+    list-style: none;
+    color: rgb(179, 105, 179);    
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    display: block;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+}
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    width: 100px;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    border-radius: 20px;   
+}
+
+ul li a:hover {
+    background: rgb(204, 193, 214);
+    border-radius: 20px;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+.talk{
+    background: purple;
+    color: white;
+    border-radius: 20px;
+}
+.boys{
+    display: flex;
+    justify-content: space-around;
+    height: 110vh;
+    width: 100%;
+    margin-top: 0px;
+    background:rgb(239,255,240);
+    padding: 50px;
+}
+.boy1{
+    width: 50%;
+    position: relative;
+}
+.boytop{
+    position: absolute;
+    top: 20px;
+    left: -120px; 
+}
+.boy{
+    width: 520px;
+    position: absolute;
+    /* left: 10px;  */
+    
+}
+.boy2{
+    width: 40%;
+    position: relative;
+    left: -70px;
+}
+.boy2 .img1{
+    width: 120px;
+  position: absolute;
+  right: -150px;
+}
+.boy2 .img2{
+    width: 120px;
+    position: absolute;
+    right: -150px;
+}
+.boy2 p{
+    margin-bottom: 30px;
+}
+.boy2 h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.boy2 h3{
+    font-style: italic;
+    margin-bottom: 50px;
+    line-height: 30px;
+    font-size: 17px;
+}
+.boy3{
+    display: flex;
+}
+.boy3 p{
+    margin-right: 10px;
+    padding: 15px 40px;
+    border-radius: 20px; 
+    background:purple;
+    color: white;
+}
+.boy3 h4{
+    padding: 15px 40px;
+}
+
+.content{
+    /* margin-top: 30px; */
+    display: flex;
+    justify-content: space-around;
+    z-index: 999;
+    position: absolute;
+    background-color: purple;
+    width: 100%;
+    padding: 90px;
+    color: white;
+}
+.content1{
+    width: 50%;
+}
+.content1 p{
+    padding-bottom: 30px;
+}
+.content1 h2{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.content1 h5{
+    font-family:monospace;
+    font-size: 15px;
+    line-height: 20px;
+    padding-bottom: 30px;
+    
+    
+}
+
+.follow{
+    display: flex;  
+    margin-top: 60px;
+}
+
+.follow p{
+    margin-right: 30px;
+}
+
+.follow a{
+    color: white;
+    margin: 5px;
+}
+
+.content2{
+    width: 50%;
+    display: inline-block;
+    padding-bottom: 30px;
+    margin-left: 70px;
+}
+.set1{
+    display: flex;
+    margin-bottom: 40px;
+}
+.set1 p{
+    margin-right: 50px;
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 50px;
+}
+
+.set2{
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+.subset1{
+    display: flex;
+    margin-bottom: 30px;
+}
+.subset2{
+    display: flex;
+    margin-top: 30px;
+}
+.subset1 p{
+    margin-right: 120px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.subset2 p{
+    margin-right: 120px;
+    font-size: 18px;
+    line-height: 30px;
+}
+.content2 a{
+    background: yellow;
+    padding: 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-style:oblique;
+    font-weight: bold;
+}
+.middle{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin-top: 680px;
+    background: rgba(245, 245, 245, 0.897);
+    padding: 50px;
+}
+
+.middle h3{
+    text-align: center;
+    color: rgb(155, 155, 20);
+    line-height: 40px;
+}
+.middle h2{
+    text-align: center;
+    font-size: 40px;
+}
+.middlecard{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+}
+.card1{
+    background: rgba(255, 255, 255, 0.26);
+    height: 250px;
+    text-align: center;
+    padding: 40px;
+    margin: 30px;
+}
+.card2{
+    background: rgba(255, 255, 255, 0.26);
+    height: 250px;
+    text-align: center;
+    padding: 40px;
+    margin: 30px;
+}
+.card3{
+    background: rgba(255, 255, 255, 0.26);
+    height: 250px;
+    text-align: center;
+    padding: 40px;
+    margin: 30px;
+}
+.card1 p{
+    color: purple;
+    font-size: 25px;
+    font-family:monospace;
+    line-height: 50px;
+}
+.card1 h4{
+    color: rgb(77, 77, 141);
+    font-weight:lighter;
+    line-height: 20px;
+}
+
+.card2 p{
+    color: purple;
+    font-size: 25px;
+    font-family:monospace;
+    line-height: 50px;
+}
+.card2 h4{
+    color: rgb(77, 77, 141);
+    font-weight:lighter;
+    line-height: 20px;
+}
+.card3 p{
+    color: purple;
+    font-size: 25px;
+    font-family:monospace;
+    line-height: 50px;
+}
+.card3 h4{
+    color: rgb(77, 77, 141);
+    font-weight:lighter;
+    line-height: 20px;
+}
+.middle2{
+    display: inline-block;
+    text-align: center;
+    background: rgb(19,4,31);
+    padding: 40px;
+    color: white;
+    width: 100%;
+    height: 90vh;
+    
+}
+.middle2 p{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.middle2 h2{
+    font-size: 40px;
+    padding-bottom: 30px;
+    
+}
+.middle2 img{
+    width: 20%;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+.middle3{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    background: rgb(156, 62, 62);
+}
+.middle3 p{
+    color: rgb(107, 107, 13);
+    line-height: 60px;
+}
+.middle3 h2{
+    font-size: 40px;
+    padding-bottom: 80px;
+}
+.pixcard{
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.pixcard img{
+    width: 50px;
+}
+.cad1{
+    background: rgb(178, 178, 206);
+    padding: 30px;
+    margin: 10px 20px;
+}
+.cad1 h3{
+    padding-top: 20px;
+    text-align: center;
+    font: 15px arial lighter;
+    line-height: 20px;
+}
+.cad1sub{
+    padding-top: 40px;
+}
+.cad1sub img{
+    margin-right: 20px;
+}
+.cad1sub p{
+    line-height: 30px;
+}
+.cad1sub span h4{
+    color: yellow;
+    
+}
+.cad2{
+    background: rgb(178, 178, 206);
+    padding: 30px;
+    margin: 10px 20px;
+}
+.cad2 h3{
+    padding-top: 20px;
+    text-align: center;
+    font: 15px arial lighter;
+    line-height: 20px;
+}
+.cad2sub{
+    padding-top: 40px;
+}
+.cad2sub img{
+    margin-right: 20px;
+}
+.cad2sub p{
+    line-height: 30px;
+}
+.cad2sub span h4{
+    color: yellow;   
+}
+.cad3{
+    background: rgb(178, 178, 206);
+    padding: 30px;
+    margin: 10px 20px;
+}
+.cad3 h3{
+    padding-top: 20px;
+    text-align: center;
+    font: 15px arial lighter;
+    line-height: 20px;
+}
+.cad3sub{
+    padding-top: 40px;
+}
+.cad3sub img{
+    margin-right: 20px;
+}
+.cad3sub p{
+    line-height: 30px;
+}
+.cad3sub span h4{
+    color: yellow;   
+}
+.cad4{
+    background: rgb(178, 178, 206);
+    padding: 30px;
+    margin: 10px 20px;
+}
+.cad4 h3{
+    padding-top: 20px;
+    text-align: center;
+    font: 15px arial lighter;
+    line-height: 20px;
+}
+.cad4sub{
+    padding-top: 30px;
+}
+.cad4sub img{
+    margin-right: 20px;
+}
+.cad4sub p{
+    line-height: 20px;
+}
+.cad4sub span h4{
+    color: rgb(241, 241, 28);   
+}
+.middle4head{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px;
+}
+.head1 p{
+    color: rgb(97, 97, 16);
+    font-size: 20px;
+}
+.head1 h4{
+    font-size: 45px;
+}
+.middle4{
+    background: rgb(251,251,251);   
+}
+.middle4head a{
+    text-decoration: none;
+    color: white;
+    font: 17px Arial;
+}
+.middle4head h3{
+    background: purple;
+    padding: 20px;
+    border-radius: 40px;
+    margin-right: 100px;
+}
+.middle4head span{
+    margin-left: 5px;
+}
+.cards{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    padding-top: 40px;
+    padding-left: 5%;   
+}
+.carda{
+    background: white; 
+    width: 30%;
+}
+.cardb{
+    background: white; 
+    width: 30%;
+}
+.cardc{
+    background: white; 
+    width: 30%;
+}
+.carda h3{
+    color: purple;
+    font-weight: lighter;
+    line-height: 20px;
+    padding-top: 30px;
+    margin-right: 80px;  
+    text-align: center; 
+}
+.cardafoot{
+    display: flex;
+    justify-content: space-around;
+}
+.cardb h3{
+    color: purple;
+    font-weight: lighter;
+    line-height: 20px;
+    padding-top: 30px;
+    margin-right: 80px;  
+    text-align: center; 
+}
+.cardbfoot{
+    display: flex;
+    justify-content: space-around;
+}
+.cardc h3{
+    color: purple;
+    font-weight: lighter;
+    line-height: 20px;
+    padding-top: 30px;
+    margin-right: 80px;  
+    text-align: center; 
+}
+.cardcfoot{
+    display: flex;
+    justify-content: space-around;
+}
+.cardafoot p{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: -100px;
+}
+.cardbfoot p{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: -100px;
+}
+.cardcfoot p{
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: -100px;
+}
+.formset{
+    background-color: purple;
+    height: 600px;
+    padding: 60px 40px;
+    width: 100%;
+    height: 105vh;
+    display: flex;
+    margin-top: 30px;
+}
+.formset1{
+    width: 50%;
+    margin-left: 60px;
+    position: relative;
+}
+.formset1 p{
+    color: yellow;
+    font-size: 20px;
+    font-family: Cursive;
+    padding-top: 130px;  
+    margin-left: -20px;
+}
+.formset1 h1{
+    color: white;
+    font-size: 80px;
+    font-family: Cursive;
+    margin-left: -20px;  
+}
+.formset1 img{
+    position: absolute; 
+    left: -90px;
+    bottom: 70px;
+}
+.formset2{
+    width: 50%;
+    border: 1px solid white;
+    height: 80vh;
+    border-radius: 20px;
+}
+form{
+    display: grid;
+    margin-bottom: 60px;
+
+}
+form input{
+    margin: 30px;
+    margin-left: 10px;
+    background-color: purple;
+    color: white;
+    height: 40px;
+    border-bottom: 1px solid white !important;
+    border: none;
+    outline: none;
+   
+}
+button{
+    margin:20px;
+    background-color: yellow;
+    padding: 20px;
+    color: purple;
+    font: 15px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none !important;
+    cursor: pointer;
+}
+footer{
+    height: 85vh;
+    background-color: rgb(15,11,18);
+}
+.footera{
+    display: flex;
+    justify-content: space-around;
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(15,11,18);
+    color: white !important;
+    font-family: monospace;
+    font-size: 16px;
+    padding: 50px;
+    
+}
+.foota{
+    width: 33%;
+    padding: 30px;
+}
+.foota img{
+    padding-bottom: 30px !important;
+}
+.foota p{
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+.foota pre{
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+.footb{
+    width: 33%;
+    padding: 30px;
+}
+
+.footb hr{
+    width: 50px;
+    margin: 25px 0px;
+}
+.footb p{
+    line-height: 40px;
+}
+.footb span{
+    margin-right: 15px;
+    color: rgb(131, 44, 122);
+}
+.footc{
+    width: 33%;
+    padding: 30px;
+}
+.linkup{
+    margin-bottom: 40px;    
+}
+.linkup a{
+    margin-right: 10px;
+    color: white;
+    outline: 1px solid;
+    padding: 10px;
+    border-radius: 40px;
+    transition: background-color 1.00s;
+}
+.linkup a:hover{
+    background-color: purple;
+    outline: none;
+}
+.footc pre{
+    line-height: 30px;
+}
+
+.subscribe{
+    height: 50px;
+    width: 275px;
+    display: flex;
+    margin-top:30px ;
+    border: 2px solid;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50px;
+}
+.subscribe input{
+    outline: none;
+    border: none;
+    width: 300px;
+   /* border-radius: 40px; */
+   
+   
+}
+.footbutton{
+        background-color: purple;
+        color: white;
+        padding: 15px;
+        padding-bottom: 25px;
+        border-radius: 40px;
+        margin-top: -3px;
+        margin-left: 1px;
+        outline: none;        
+}
+footer hr{
+    margin:0px 150px;
+}
+footer h4{
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+    
