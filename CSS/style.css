@@ -1,125 +1,26 @@
-*{
+body{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
-    /* background-color:rgb(239,255,240); */
-    
-}
-
-/* .navbar {
-    display: flex;
-    justify-content: space-around;
-    
-}
-
-.navbar ul li{
-    display: inline-block;
-    position: relative;
-    text-align: center;
-    background: blue;
-}
-
-.navbar ul li a{
-    text-decoration: none;
-    padding: 20px 20px;
-    width: 100%;
-    
-}
-
-.navbar ul li ul.dropdown li{
-    display: block;
-    background: rgb(176, 176, 190);
-   
-}
-
-.navbar ul li ul.dropdown{
-    display: none;
-    width: 100px;
-    position: absolute;
-    z-index: 999;
-    width: 100%;
-    text-align: center;
+    box-sizing: border-box; 
+    overflow-x: hidden; 
 }
 
 
-.navbar ul li:hover ul.dropdown{
-    display: block;
-} */
-
-
-
-.navbar {
-    display: flex;
-    padding: 15px;  
-    background-color:rgb(239,255,240);
-}
-.nav2{
-    display: flex;
-}
-.nav3{
-    display: flex;
-    margin-left: 50px;
-}
-.navbar .nav3 a{
-    text-decoration: none;
-    padding: 15px;
-    font-size: 15px;
-    
-}
-
-ul {
-    list-style: none;
-    color: rgb(179, 105, 179);    
-}
-
-ul li{
-    display: inline-block;
-    position: relative;
-}
-
-ul li a {
-    display: block;
-    padding: 10px 25px;
-    text-decoration: none;
-    text-align: center;
-    font-size: 15px;
-}
-ul li ul.dropdown li{
-    display: block;
-}
-ul li ul.dropdown{
-    width: 100px;
-    position: absolute;
-    z-index: 999;
-    display: none;
-    border-radius: 20px;   
-}
-
-ul li a:hover {
-    background: rgb(204, 193, 214);
-    border-radius: 20px;
-}
-
-ul li:hover ul.dropdown{
-    display: block;
-}
-.talk{
-    background: purple;
-    color: white;
-    border-radius: 20px;
-}
 .boys{
     display: flex;
     justify-content: space-around;
-    height: 110vh;
-    width: 100%;
-    margin-top: 0px;
+    height: 100vh;
+    margin-top: 5px;
     background:rgb(239,255,240);
     padding: 50px;
+
 }
 .boy1{
-    width: 50%;
+    width: 50vw;
     position: relative;
+    right: 10px;
+    
+    
 }
 .boytop{
     position: absolute;
@@ -128,24 +29,24 @@ ul li:hover ul.dropdown{
 }
 .boy{
     width: 520px;
-    position: absolute;
-    /* left: 10px;  */
-    
+    position: absolute;    
 }
 .boy2{
-    width: 40%;
+    width: 40vw;
     position: relative;
-    left: -70px;
+    left: -30px;
+
 }
 .boy2 .img1{
     width: 120px;
-  position: absolute;
-  right: -150px;
+    position: absolute;
+    right: -55px;
+  
 }
 .boy2 .img2{
     width: 120px;
     position: absolute;
-    right: -150px;
+    right: -55px;
 }
 .boy2 p{
     margin-bottom: 30px;
@@ -176,7 +77,7 @@ ul li:hover ul.dropdown{
 }
 
 .content{
-    /* margin-top: 30px; */
+    
     display: flex;
     justify-content: space-around;
     z-index: 999;
@@ -259,6 +160,8 @@ ul li:hover ul.dropdown{
     font-size: 18px;
     line-height: 30px;
 }
+
+
 .content2 a{
     background: yellow;
     padding: 20px;
@@ -737,7 +640,7 @@ footer{
     outline: none;
     border: none;
     width: 300px;
-   /* border-radius: 40px; */
+   
    
    
 }
@@ -761,5 +664,3 @@ footer h4{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
-    
